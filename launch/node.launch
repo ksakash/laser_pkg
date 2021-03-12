@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="laser_pkg" type="node" name="node" output="screen" />
+    <node pkg="laser_pkg" type="pynode.py" name="pynode" output="screen" />
+    <node pkg="laser_pkg" type="pointcloud.py" name="pointcloud" output="screen" />
+</launch>
