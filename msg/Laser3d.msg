@@ -1,0 +1,14 @@
+std_msgs/String frame
+geometry_msgs/Pose world_pose
+float32 angle_min
+float32 angle_max
+float32 angle_step
+float32 range_min
+float32 range_max
+uint32 count
+float32 vertical_angle_min
+float32 vertical_angle_max
+float32 vertical_angle_step
+uint32 vertical_count
+float32[] ranges
+float32[] intensities
