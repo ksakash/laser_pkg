@@ -17,13 +17,14 @@ add_message_files (
   FILES
   Laser3d.msg
   PointArray.msg
+  ImagePose.msg
 )
 
 catkin_python_setup()
 
 generate_messages (
   DEPENDENCIES
-  std_msgs geometry_msgs
+  std_msgs geometry_msgs sensor_msgs
 )
 
 catkin_package (
